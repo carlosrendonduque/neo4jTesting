@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\carlos.rendon\\Documents\\Neo4js\\Neo4jsTest\\Neo4jsTest\\Neo4jsTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\carlos.rendon\\Documents\\Neo4js\\Neo4jsTest\\Neo4jsTest\\Neo4jsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carlos.rendon\\Documents\\Neo4js\\Neo4jsTest\\Neo4jsTest\\Neo4jsTest.csproj",
+        "projectName": "Neo4jsTest",
+        "projectPath": "C:\\Users\\carlos.rendon\\Documents\\Neo4js\\Neo4jsTest\\Neo4jsTest\\Neo4jsTest.csproj",
+        "packagesPath": "C:\\Users\\carlos.rendon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlos.rendon\\Documents\\Neo4js\\Neo4jsTest\\Neo4jsTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\carlos.rendon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\carlos.rendon\\Documents\\UiPath\\PublishDemoNoMessages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Neo4j.Driver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Neo4j.Driver.Simple": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Neo4jClient": {
+              "target": "Package",
+              "version": "[3.2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
